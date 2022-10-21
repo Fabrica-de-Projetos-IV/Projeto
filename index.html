@@ -6,45 +6,308 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LOGO</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            min-height: 100vh;
+            background: #1E569A;
+            transition: 0.5s;
+            /* transição das cores */
+        }
+        
+        .teste {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        body.active {
+            /* transição das cores */
+            background: #9E20B2;
+        }
+        
+        .container {
+            position: relative;
+            width: 800px;
+            height: 500px;
+            margin: 20px;
+        }
+        
+        .blueBg {
+            position: absolute;
+            top: 40px;
+            width: 100%;
+            height: 420px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
+        }
+        
+        .blueBg .box {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .blueBg .box h2 {
+            color: #fff;
+            font-size: 1.2em;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        
+        .blueBg .box button {
+            cursor: pointer;
+            padding: 10px 20px;
+            background: #fff;
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+        }
+        
+        .formBx {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 52%;
+            height: 100%;
+            background: #fff;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 5px 45px rgba(0, 0, 0, 0.25);
+            transition: 0.5s ease-in-out;
+            overflow: hidden;
+        }
+        
+        .formBx.active {
+            left: 50%;
+        }
+        
+        .formBx .form {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            padding: 50px;
+            transition: 0.5s;
+        }
+        
+        .formBx .signinForm {
+            transition-delay: 0.25s;
+        }
+        
+        .formBx.active .signinForm {
+            left: -100%;
+            transition-delay: 0s;
+        }
+        
+        .formBx .signupForm {
+            left: 100%;
+            transition-delay: 0s;
+        }
+        
+        .formBx.active .signupForm {
+            left: 0;
+            transition-delay: 0.25s;
+        }
+        
+        .formBx .form form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .formBx .form form h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .formBx .form form input {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            outline: none;
+            font-size: 16px;
+        }
+        
+        .border {
+            border: 1px solid #333;
+        }
+        
+        .formBx .form form .forgot {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 991px) {
+            .container {
+                max-width: 400px;
+                height: 650px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container .blueBg {
+                top: 0;
+                height: 100%;
+            }
+            .formBx {
+                width: 100%;
+                height: 500px;
+                top: 0;
+                box-shadow: none;
+            }
+            .blueBg .box {
+                position: absolute;
+                width: 100%;
+                height: 150px;
+                bottom: 0;
+            }
+            .box.signin {
+                top: 0;
+            }
+            .formBx.active {
+                left: 0;
+                top: 150px;
+            }
+        }
+        
+        nav {
+            width: 100%;
+            height: 50px;
+            margin: 0 auto;
+        }
+        
+        .form-control:focus.a {
+            border-color: #1E569A;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(30, 86, 154, 1);
+        }
+        
+        .form-control:focus.b {
+            border-color: #9E20B2;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(158, 32, 178, 1);
+        }
+        
+        .btn-primary.a {
+            background-color: #1368CE !important;
+            border-color: #1368CE !important;
+            border: none;
+            color: #fff;
+            max-width: 110px;
+        }
+        
+        .btn-primary:hover.a {
+            background-color: #1E569A !important;
+            border-color: #1E569A !important;
+            border: none;
+            color: #fff;
+            max-width: 110px;
+        }
+        
+        .btn-primary.b {
+            background-color: #9E20B2 !important;
+            border-color: #9E20B2 !important;
+            border: none;
+            color: #fff;
+            max-width: 110px;
+        }
+        
+        .btn-primary:hover.b {
+            background-color: #7E1C8D !important;
+            border-color: #7E1C8D !important;
+            border: none;
+            color: #fff;
+        }
+        
+        .btn-primary:hover.c {
+            background-color: #1E569A !important;
+            border-color: #1E569A !important;
+            color: #fff;
+        }
+        
+        .btn-primary:hover.d {
+            background-color: #7E1C8D !important;
+            border-color: #7E1C8D !important;
+            color: #fff;
+        }
+        
+        .c {
+            width: 130px;
+        }
+        
+        .d {
+            width: 130px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img class="rounded-circle" src="img/bola3.png" alt="image">
 
-        <div class="blueBg">
-            <div class="box signin">
-                <h2>Já tem uma conta?</h2>
-                <button class="signinBtn">Login</button>
-            </div>
-            <div class="box signup">
-                <h2>Não tem uma conta?</h2>
-                <button class="signupBtn">Cadastre-se</button>
-            </div>
         </div>
-        <div class="formBx ">
-            <div class="form signinForm">
-                <form>
-                    <h3>Login</h3>
-                    <input class="border" type="text" placeholder="Usuario..." />
-                    <input class="border" type="text" placeholder="Senha..." />
-                    <input class="b1" type="submit" value="Entrar" />
-                    <a href="#" class="forgot">Esqueci minha senha</a>
-                </form>
+        </div>
+    </nav>
+    <div class="teste">
+        <div class="container">
+
+            <div class="blueBg">
+                <div class="box signin">
+                    <h2>Já tem uma conta?</h2>
+                    <button class="btn btn-primary d signinBtn">Login</button>
+                </div>
+                <div class="box signup">
+                    <h2>Não tem uma conta?</h2>
+                    <button class="btn btn-primary c signupBtn">Cadastre-se</button>
+                </div>
             </div>
-            <div class="form signupForm">
-                <form>
-                    <h3>Cadastro</h3>
-                    <input class="border" type="text" placeholder="Nome..." />
-                    <input class="border" type="text" placeholder="Usuario..." />
-                    <input class="border" type="text" placeholder="E-mail..." />
-                    <input class="border" type="text" placeholder="Senha..." />
-                    <input class="border" type="text" placeholder="Confirmar senha" />
-                    <input class="b2" type="submit" value="Cadastrar" />
-                </form>
+            <div class="formBx ">
+                <div class="form signinForm">
+                    <form>
+                        <h3>Login</h3>
+                        <input class="form-control border a" type="text" placeholder="Usuario..." />
+                        <input class="form-control border a" type="text" placeholder="Senha..." />
+                        <button class="btn btn-primary a e" type="submit">Entrar</button> <br>
+                        <a href="#" class="forgot">Esqueci minha senha</a>
+                    </form>
+                </div>
+                <div class="form signupForm">
+                    <form>
+                        <h3>Cadastro</h3>
+                        <input class="form-control border b" type="text" placeholder="Nome..." />
+                        <input class="form-control border b" type="text" placeholder="Usuario..." />
+                        <input class="form-control border b" type="text" placeholder="E-mail..." />
+                        <input class="form-control border b" type="text" placeholder="Senha..." />
+                        <input class="form-control border b" type="text" placeholder="Confirmar senha" />
+                        <button class="btn btn-primary b f" type="submit">Cadastrar</button> <br>
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+
 
     <script>
         const signinBtn = document.querySelector(".signinBtn");
@@ -62,6 +325,7 @@
             body.classList.remove("active");
         };
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
