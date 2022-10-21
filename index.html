@@ -213,7 +213,7 @@
             border-color: #1368CE !important;
             border: none;
             color: #fff;
-            max-width: 110px;
+            max-width: 100%;
         }
         
         .btn-primary:hover.a {
@@ -221,7 +221,7 @@
             border-color: #1E569A !important;
             border: none;
             color: #fff;
-            max-width: 110px;
+            max-width: 100%;
         }
         
         .btn-primary.b {
@@ -229,7 +229,7 @@
             border-color: #9E20B2 !important;
             border: none;
             color: #fff;
-            max-width: 110px;
+            max-width: 100%;
         }
         
         .btn-primary:hover.b {
@@ -237,6 +237,7 @@
             border-color: #7E1C8D !important;
             border: none;
             color: #fff;
+            max-width: 100%;
         }
         
         .btn-primary:hover.c {
@@ -249,6 +250,12 @@
             background-color: #7E1C8D !important;
             border-color: #7E1C8D !important;
             color: #fff;
+        }
+        
+        .e {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .c {
@@ -288,7 +295,8 @@
                         <h3>Login</h3>
                         <input class="form-control border a" type="text" placeholder="Usuario..." />
                         <input class="form-control border a" type="text" placeholder="Senha..." />
-                        <button class="btn btn-primary a e" type="submit">Entrar</button> <br>
+                        <button class="btn btn-primary a f" type="submit">Entrar</button>
+                        <br>
                         <a href="#" class="forgot">Esqueci minha senha</a>
                     </form>
                 </div>
@@ -300,12 +308,14 @@
                         <input class="form-control border b" type="text" placeholder="E-mail..." />
                         <input class="form-control border b" type="text" placeholder="Senha..." />
                         <input class="form-control border b" type="text" placeholder="Confirmar senha" />
-                        <button class="btn btn-primary b f" type="submit">Cadastrar</button> <br>
-
-                    </form>
+                        <button class="btn btn-primary b" type="submit">Cadastrar</button>
                 </div>
+                <br>
+
+                </form>
             </div>
         </div>
+    </div>
     </div>
 
 
