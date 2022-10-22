@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<?php
+require_once 'classes/usuario.php';
+$u = new Usuario;
+?>
 <html lang="pt-br">
 
 <head>
@@ -11,38 +16,39 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             min-height: 100vh;
             background: #1E569A;
             transition: 0.5s;
             /* transição das cores */
         }
-        
+
         .teste {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
         }
-        
+
         body.active {
             /* transição das cores */
             background: #9E20B2;
         }
-        
+
         .container {
             position: relative;
             width: 800px;
             height: 500px;
             margin: 20px;
         }
-        
+
         .blueBg {
             position: absolute;
             top: 40px;
@@ -54,7 +60,7 @@
             background: rgba(255, 255, 255, 0.2);
             box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
         }
-        
+
         .blueBg .box {
             position: relative;
             width: 50%;
@@ -64,14 +70,14 @@
             align-items: center;
             flex-direction: column;
         }
-        
+
         .blueBg .box h2 {
             color: #fff;
             font-size: 1.2em;
             font-weight: 500;
             margin-bottom: 10px;
         }
-        
+
         .blueBg .box button {
             cursor: pointer;
             padding: 10px 20px;
@@ -81,7 +87,7 @@
             font-weight: 500;
             border: none;
         }
-        
+
         .formBx {
             position: absolute;
             top: 0;
@@ -97,11 +103,11 @@
             transition: 0.5s ease-in-out;
             overflow: hidden;
         }
-        
+
         .formBx.active {
             left: 50%;
         }
-        
+
         .formBx .form {
             position: absolute;
             left: 0;
@@ -109,39 +115,39 @@
             padding: 50px;
             transition: 0.5s;
         }
-        
+
         .formBx .signinForm {
             transition-delay: 0.25s;
         }
-        
+
         .formBx.active .signinForm {
             left: -100%;
             transition-delay: 0s;
         }
-        
+
         .formBx .signupForm {
             left: 100%;
             transition-delay: 0s;
         }
-        
+
         .formBx.active .signupForm {
             left: 0;
             transition-delay: 0.25s;
         }
-        
+
         .formBx .form form {
             width: 100%;
             display: flex;
             flex-direction: column;
         }
-        
+
         .formBx .form form h3 {
             font-size: 1.5em;
             color: #333;
             margin-bottom: 20px;
             font-weight: 500;
         }
-        
+
         .formBx .form form input {
             width: 100%;
             margin-bottom: 20px;
@@ -149,16 +155,16 @@
             outline: none;
             font-size: 16px;
         }
-        
+
         .border {
-            border: 1px solid #333;
+            border: 1px solid #333 !important;
         }
-        
+
         .formBx .form form .forgot {
             color: #333;
             text-decoration: none;
         }
-        
+
         @media (max-width: 991px) {
             .container {
                 max-width: 400px;
@@ -167,101 +173,102 @@
                 justify-content: center;
                 align-items: center;
             }
+
             .container .blueBg {
                 top: 0;
                 height: 100%;
             }
+
             .formBx {
                 width: 100%;
                 height: 500px;
                 top: 0;
                 box-shadow: none;
             }
+
             .blueBg .box {
                 position: absolute;
                 width: 100%;
                 height: 150px;
                 bottom: 0;
             }
+
             .box.signin {
                 top: 0;
             }
+
             .formBx.active {
                 left: 0;
                 top: 150px;
             }
         }
-        
+
         nav {
             width: 100%;
             height: 50px;
             margin: 0 auto;
         }
-        
+
         .form-control:focus.a {
             border-color: #1E569A;
             box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(30, 86, 154, 1);
         }
-        
+
         .form-control:focus.b {
             border-color: #9E20B2;
             box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(158, 32, 178, 1);
         }
-        
+
         .btn-primary.a {
             background-color: #1368CE !important;
             border-color: #1368CE !important;
-            border: none;
             color: #fff;
             max-width: 100%;
         }
-        
+
         .btn-primary:hover.a {
             background-color: #1E569A !important;
             border-color: #1E569A !important;
-            border: none;
             color: #fff;
             max-width: 100%;
         }
-        
+
         .btn-primary.b {
             background-color: #9E20B2 !important;
             border-color: #9E20B2 !important;
-            border: none;
             color: #fff;
             max-width: 100%;
         }
-        
+
         .btn-primary:hover.b {
             background-color: #7E1C8D !important;
             border-color: #7E1C8D !important;
-            border: none;
             color: #fff;
             max-width: 100%;
         }
-        
+
         .btn-primary:hover.c {
             background-color: #1E569A !important;
             border-color: #1E569A !important;
             color: #fff;
         }
-        
+
         .btn-primary:hover.d {
             background-color: #7E1C8D !important;
             border-color: #7E1C8D !important;
             color: #fff;
         }
-        
+
         .e {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        
+
         .c {
             width: 130px;
         }
-        
+
         .d {
             width: 130px;
         }
@@ -290,25 +297,26 @@
                 </div>
             </div>
             <div class="formBx ">
-                <div class="form signinForm">
-                    <form>
+                <div class="form signinForm" id="corpo-form">
+                    <form method="POST">
                         <h3>Login</h3>
-                        <input class="form-control border a" type="text" placeholder="Usuario..." />
-                        <input class="form-control border a" type="text" placeholder="Senha..." />
-                        <button class="btn btn-primary a f" type="submit">Entrar</button>
+                        <input class="form-control border a" type="text" name="usuario" placeholder="Usuario..." />
+                        <input class="form-control border a" type="text" name="senha" placeholder="Senha..." />
+                        <button class="btn btn-primary a" type="submit">Entrar</button>
                         <br>
                         <a href="#" class="forgot">Esqueci minha senha</a>
                     </form>
                 </div>
-                <div class="form signupForm">
-                    <form>
+                <div class="form signupForm" id="corpo-form-cad">
+                    <form method="POST">
                         <h3>Cadastro</h3>
-                        <input class="form-control border b" type="text" placeholder="Nome..." />
-                        <input class="form-control border b" type="text" placeholder="Usuario..." />
-                        <input class="form-control border b" type="text" placeholder="E-mail..." />
-                        <input class="form-control border b" type="text" placeholder="Senha..." />
-                        <input class="form-control border b" type="text" placeholder="Confirmar senha" />
-                        <button class="btn btn-primary b" type="submit">Cadastrar</button>
+                        <input class="form-control border b" type="text" name="nome" placeholder="Nome..." maxlength=30 />
+                        <input class="form-control border b" type="text" name="usuario" placeholder="Usuario..." maxlength=40 />
+                        <input class="form-control border b" type="text" name="email" placeholder="E-mail..." maxlength=40 />
+                        <input class="form-control border b" type="text" name="senha" placeholder="Senha..." maxlength=15 />
+                        <input class="form-control border b" type="text" name="confSenha" placeholder="Confirmar senha" maxlength=15 />
+                        <button class="btn btn-primary b" type="button">Cadastrar</button>
+
                 </div>
                 <br>
 
@@ -336,6 +344,38 @@
         };
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <?php
+    if (isset($_POST['nome'])) {
+        $nome = addslashes($_post['nome']);
+        $usuario = addslashes($_post['usuario']);
+        $email = addslashes($_post['email']);
+        $senha = addslashes($_post['senha']);
+        $confirmarSenha = addslashes($_post['confSenha']);
+
+        if (!empty($nome) && !empty($usuario) && !empty($email) && !empty($senha) && !empty($confirmarSenha)) {
+
+            $u->conectar("trilhatech", "localhost", "usuario", "lucas123");
+            if ($u->msgErro == "") {
+                if ($senha == $confirmarSenha) {
+                    if ($u->cadastrar($nome, $usuario, $email, $senha)) {
+                        echo "Usuario cadastrado com sucesso!";
+                    } else {
+                        echo "Usuario ja cadastrado!";
+                    }
+                } else {
+                    echo "As senhas não coincidem!";
+                }
+            } else {
+                echo "Erro: " . $u->msgErro;
+            }
+        } else {
+            echo "Preencha todos os campos!";
+        }
+    }
+
+    ?>
+
 </body>
 
 </html>
