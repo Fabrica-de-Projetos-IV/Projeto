@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-require_once 'usuario.php';
+require_once 'conexao/usuario.php';
 $u = new Usuario;
 ?>
 <html lang="pt-br">
@@ -272,13 +272,29 @@ $u = new Usuario;
         .d {
             width: 130px;
         }
+
+        div#msg-sucesso {
+            width: 400px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: rgba(50, 205, 50, .3);
+            border: 1px solid rgb(34, 139, 34);
+        }
+
+        div#msg-erro {
+            width: 400px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: rgba(250, 128, 114, .3);
+            border: 1px solid rgb(165, 42, 42);
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <img class="rounded-circle" src="img/bola3.png" alt="image">
+        <a href="landingPage.php"><img class="rounded-circle" src="img/bola3.png" alt="image"></a>  
 
         </div>
         </div>
@@ -289,7 +305,7 @@ $u = new Usuario;
             <div class="blueBg">
                 <div class="box signin">
                     <h2>Já tem uma conta?</h2>
-                    <button class="btn btn-primary d signinBtn">Login</button>
+                    <button type="submit" name="submit" class="btn btn-primary d signinBtn">Login</button>
                 </div>
                 <div class="box signup">
                     <h2>Não tem uma conta?</h2>
@@ -298,11 +314,11 @@ $u = new Usuario;
             </div>
             <div class="formBx ">
                 <div class="form signinForm" id="corpo-form">
-                    <form method="POST">
+                <form action="testLogin.php" method="POST">
                         <h3>Login</h3>
                         <input class="form-control border a" type="text" name="usuario" placeholder="Usuario..." />
-                        <input class="form-control border a" type="text" name="senha" placeholder="Senha..." />
-                        <button class="btn btn-primary a" type="submit">Entrar</button>
+                        <input class="form-control border a" type="password" name="senha" placeholder="Senha..." />
+                        <button class="btn btn-primary a inputSubmit" name="submit" type="submit">Entrar</button>
                         <br>
                         <a href="#" class="forgot">Esqueci minha senha</a>
                     </form>
@@ -355,23 +371,39 @@ $u = new Usuario;
 
         if (!empty($nome) && !empty($usuario) && !empty($email) && !empty($senha) && !empty($confirmarSenha)) {
 
-            
+
             if ($u->msgErro == "") {
                 if ($senha == $confirmarSenha) {
                     $result = mysqli_query($conexao, "INSERT INTO tab_usuarios(nome,usuario,email,senha) 
                     VALUES ('$nome','$usuario','$email','$senha')");
-                    echo "Usuário cadastrado com sucesso!";
+    ?>
+                    <div id="msg-sucesso">
+                        echo "Usuário cadastrado com sucesso!";
+                    </div>
+                <?php
                 } else {
-                    echo "As senhas não coincidem!";
+                ?>
+                    <div class="msg-erro">
+                        echo "As senhas não coincidem!";
+                    </div>
+                <?php
                 }
             } else {
-                echo "Erro: " . $u->msgErro;
+                ?>
+                <div class="msg-erro">
+                    echo "Erro: " . $u->msgErro;;
+                </div>
+            <?php
             }
         } else {
-            echo "Preencha todos os campos!";
+            ?>
+            <div id="msg-erro">
+                echo "Preencha todos os campos!";
+            </div>
+    <?php
+
         }
     }
-
     ?>
 
 </body>
