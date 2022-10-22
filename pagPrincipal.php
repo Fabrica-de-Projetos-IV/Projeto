@@ -6,7 +6,7 @@
     {
         unset($_SESSION['usuario']);
         unset($_SESSION['senha']);
-        header('Location: index.php');
+        header('Location: login.php');
     }
     $logado = $_SESSION['usuario'];
     //if(!empty($_GET['search']))
