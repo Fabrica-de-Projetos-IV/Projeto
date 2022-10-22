@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-require_once 'classes/usuario.php';
+require_once 'usuario.php';
 $u = new Usuario;
 ?>
 <html lang="pt-br">
@@ -315,7 +315,7 @@ $u = new Usuario;
                         <input class="form-control border b" type="text" name="email" placeholder="E-mail..." maxlength=40 />
                         <input class="form-control border b" type="text" name="senha" placeholder="Senha..." maxlength=15 />
                         <input class="form-control border b" type="text" name="confSenha" placeholder="Confirmar senha" maxlength=15 />
-                        <button class="btn btn-primary b" type="button">Cadastrar</button>
+                        <button class="btn btn-primary b" type="submit" name="submit" id="submit">Cadastrar</button>
 
                 </div>
                 <br>
@@ -346,23 +346,21 @@ $u = new Usuario;
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
 
     <?php
-    if (isset($_POST['nome'])) {
-        $nome = addslashes($_post['nome']);
-        $usuario = addslashes($_post['usuario']);
-        $email = addslashes($_post['email']);
-        $senha = addslashes($_post['senha']);
-        $confirmarSenha = addslashes($_post['confSenha']);
+    if (isset($_POST['submit'])) {
+        $nome = addslashes($_POST['nome']);
+        $usuario = addslashes($_POST['usuario']);
+        $email = addslashes($_POST['email']);
+        $senha = addslashes($_POST['senha']);
+        $confirmarSenha = addslashes($_POST['confSenha']);
 
         if (!empty($nome) && !empty($usuario) && !empty($email) && !empty($senha) && !empty($confirmarSenha)) {
 
-            $u->conectar("trilhatech", "localhost", "usuario", "lucas123");
+            
             if ($u->msgErro == "") {
                 if ($senha == $confirmarSenha) {
-                    if ($u->cadastrar($nome, $usuario, $email, $senha)) {
-                        echo "Usuario cadastrado com sucesso!";
-                    } else {
-                        echo "Usuario ja cadastrado!";
-                    }
+                    $result = mysqli_query($conexao, "INSERT INTO tab_usuarios(nome,usuario,email,senha) 
+                    VALUES ('$nome','$usuario','$email','$senha')");
+                    echo "Usuário cadastrado com sucesso!";
                 } else {
                     echo "As senhas não coincidem!";
                 }
