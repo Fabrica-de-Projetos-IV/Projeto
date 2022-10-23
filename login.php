@@ -65,7 +65,7 @@ $u = new Usuario;
         </div>
     </div>
     </div>
-    
+
 <!--  <button onclick="abrirAlerta()">Confirmar</button>
                          function abrirAlerta(){
                             swal({
@@ -109,20 +109,20 @@ $u = new Usuario;
                     $result = mysqli_query($conexao, "INSERT INTO tab_usuarios(nome,usuario,email,senha) 
                     VALUES ('$nome','$usuario','$email','$senha')");
     ?>
-                    <div id="msg-sucesso">
+                    <div id="msg-sucesso" class="fixed-top">
                         echo "Usuário cadastrado com sucesso!";
                     </div>
                 <?php
                 } else {
                 ?>
-                    <div class="msg-erro">
+                    <div class="msg-erro fixed-top">
                         echo "As senhas não coincidem!";
                     </div>
                 <?php
                 }
             } else {
                 ?>
-                <div class="msg-erro">
+                <div class="msg-erro fixed-top">
                     echo "Erro: " . $u->msgErro;;
                 </div>
             <?php
