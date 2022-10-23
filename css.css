@@ -9,7 +9,12 @@ body {
     min-height: 100vh;
     background: #1E569A;
     transition: 0.5s;
+    overflow: hidden !important;
     /* transição das cores */
+}
+
+html {
+    overflow: hidden !important;
 }
 
 .teste {
@@ -253,7 +258,7 @@ nav {
 div#msg-sucesso {
     width: 400px;
     margin: 10px auto;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(50, 205, 50, .3);
     border: 1px solid rgb(34, 139, 34);
 }
@@ -261,7 +266,7 @@ div#msg-sucesso {
 div.msg-erro {
     width: 400px;
     margin: 10px auto;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(250, 128, 114, .3);
     border: 1px solid rgb(165, 42, 42);
 }

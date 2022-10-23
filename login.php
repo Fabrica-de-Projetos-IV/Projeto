@@ -52,9 +52,9 @@ $u = new Usuario;
                         <h3>Cadastro</h3>
                         <input class="form-control border b" type="text" name="nome" placeholder="Nome..." maxlength=30 />
                         <input class="form-control border b" type="text" name="usuario" placeholder="Usuario..." maxlength=40 />
-                        <input class="form-control border b" type="text" name="email" placeholder="E-mail..." maxlength=40 />
-                        <input class="form-control border b" type="text" name="senha" placeholder="Senha..." maxlength=15 />
-                        <input class="form-control border b" type="text" name="confSenha" placeholder="Confirmar senha" maxlength=15 />
+                        <input class="form-control border b" type="email" name="email" placeholder="E-mail..." maxlength=40 />
+                        <input class="form-control border b" type="password" name="senha" placeholder="Senha..." maxlength=15 />
+                        <input class="form-control border b" type="password" name="confSenha" placeholder="Confirmar senha" maxlength=15 />
                         <button class="btn btn-primary b" type="submit" name="submit" id="submit">Cadastrar</button>
 
                 </div>
@@ -65,8 +65,16 @@ $u = new Usuario;
         </div>
     </div>
     </div>
-
-
+    
+<!--  <button onclick="abrirAlerta()">Confirmar</button>
+                         function abrirAlerta(){
+                            swal({
+                                title: "Good job!",
+                                text: "You clicked the button!",
+                                icon: "success",
+                            });
+                        }
+                        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js%22%3E</script>  -->
     <script>
         const signinBtn = document.querySelector(".signinBtn");
         const signupBtn = document.querySelector(".signupBtn");
@@ -121,7 +129,7 @@ $u = new Usuario;
             }
         } else {
             ?>
-            <div class="msg-erro">
+            <div class="msg-erro fixed-top">
                 echo "Preencha todos os campos!";
             </div>
     <?php
