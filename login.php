@@ -40,8 +40,8 @@ $u = new Usuario;
                 <div class="form signinForm" id="corpo-form">
                     <form action="testLogin.php" method="POST">
                         <h3>Login</h3>
-                        <input class="form-control border a" type="text" name="usuario" placeholder="Usuario..." />
-                        <input class="form-control border a" type="password" name="senha" placeholder="Senha..." />
+                        <input class="form-control border a" type="text" name="usuario" placeholder="Usuario..." required/>
+                        <input class="form-control border a" type="password" name="senha" placeholder="Senha..." required/>
                         <button class="btn btn-primary a inputSubmit" name="submit" type="submit">Entrar</button>
                         <br>
                         <a href="#" class="forgot">Esqueci minha senha</a>
@@ -50,11 +50,11 @@ $u = new Usuario;
                 <div class="form signupForm" id="corpo-form-cad">
                     <form method="POST">
                         <h3>Cadastro</h3>
-                        <input class="form-control border b" type="text" name="nome" placeholder="Nome..." maxlength=30 />
-                        <input class="form-control border b" type="text" name="usuario" placeholder="Usuario..." maxlength=40 />
-                        <input class="form-control border b" type="email" name="email" placeholder="E-mail..." maxlength=40 />
-                        <input class="form-control border b" type="password" name="senha" placeholder="Senha..." maxlength=15 />
-                        <input class="form-control border b" type="password" name="confSenha" placeholder="Confirmar senha" maxlength=15 />
+                        <input class="form-control border b" type="text" name="nome" placeholder="Nome..." maxlength=30 required/>
+                        <input class="form-control border b" type="text" name="usuario" placeholder="Usuario..." maxlength=40 required/>
+                        <input class="form-control border b" type="email" name="email" placeholder="E-mail..." maxlength=40 required/>
+                        <input class="form-control border b" type="password" name="senha" placeholder="Senha..." maxlength=15 required/>
+                        <input class="form-control border b" type="password" name="confSenha" placeholder="Confirmar senha" maxlength=15 required/>
                         <button class="btn btn-primary b" type="submit" name="submit" id="submit">Cadastrar</button>
 
                 </div>

@@ -41,7 +41,7 @@ $logado = $_SESSION['usuario'];
             display: flex;
             justify-content: center;
             align-items: center;
-            top: 230px;
+            top: 170px;
             width: 100%;
             height: 420px;
         }
