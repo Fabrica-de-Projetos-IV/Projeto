@@ -65,6 +65,7 @@ $u = new Usuario;
         </div>
     </div>
     </div>
+    
 
 <!--  <button onclick="abrirAlerta()">Confirmar</button>
                          function abrirAlerta(){
@@ -110,27 +111,27 @@ $u = new Usuario;
                     VALUES ('$nome','$usuario','$email','$senha')");
     ?>
                     <div id="msg-sucesso" class="fixed-top">
-                        echo "Usuário cadastrado com sucesso!";
+                        Usuário cadastrado com sucesso!
                     </div>
                 <?php
                 } else {
                 ?>
                     <div class="msg-erro fixed-top">
-                        echo "As senhas não coincidem!";
+                        As senhas não coincidem!
                     </div>
                 <?php
                 }
             } else {
                 ?>
                 <div class="msg-erro fixed-top">
-                    echo "Erro: " . $u->msgErro;;
+                    Erro!
                 </div>
             <?php
             }
         } else {
             ?>
             <div class="msg-erro fixed-top">
-                echo "Preencha todos os campos!";
+                Preencha todos os campos!
             </div>
     <?php
 
