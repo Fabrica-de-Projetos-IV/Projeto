@@ -29,7 +29,7 @@
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand"><img src="img/logo2.png" alt=""></a>       
+          <a href="index.html" class="navbar-brand"><img src="img/logob.png" alt=""></a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -72,16 +72,16 @@
           <div class="row">
             <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
               <div class="contents">
-                <h2 class="head-title">Matando sua fome,<br>Decidindo o que você come!</h2>
-                <p class="p">Cansado de não poder montar seus pratos ? <br>Necessita de self-service sem sair de sua residência ? </p>
+                <h2 class="head-title">Trilha Tech,<br>Te colocamos nos <br> trilhos da tecnologia!</h2>
+                <p class="p">Não sabe qual área escolher ? <br>Necessita de alguma dica pra trilhar seu futuro ? </p>
                 <div class="header-button">
-                  <a href="login.php" class="btn btn-common">Experimente já</i></a>
+                  <a href="login.php" class="btn btn-common">Faça nosso formulário</i></a>
                 </div>
               </div>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
               <div class="intro-img">
-                <img class="img-fluid" src="img/logo17.png" alt="">
+                <img class="img-fluid" src="img/a10.png" alt="">
               </div>      
             </div>
           </div> 
@@ -90,8 +90,7 @@
       <!-- Hero Area End -->
 
     </header>
-    <!-- Header Area wrapper End -->
-
+  
     <!-- Services Section Start -->
     <section id="services" class="section-padding">
       <div class="container">
@@ -107,8 +106,8 @@
                 <i class="lni-cog"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Fácil de Usar</a></h3>
-                <p class="p">Nosso aplicativo desponibilizará uma alta perfomance de usabilidade e rapidez para efetuar o pedido.  </p>
+                <h3><a href="#">Formulário rapido</a></h3>
+                <p class="p">Nosso site desponibilizará uma alta perfomance de usabilidade e rapidez para efetuar o formulário.  </p>
               </div>
             </div>
           </div>
@@ -119,8 +118,8 @@
                 <i class="lni-stats-up"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Design Admirável</a></h3>
-                <p>Com design limpo e bonito para o usuário ter uma maior satisfação e uma boa experiência ao usar o aplicativo. </p>
+                <h3><a href="#">Design Intuitivo</a></h3>
+                <p>Com design limpo e bonito para o usuário ter uma maior satisfação e uma boa experiência ao efetuar o formulário. </p>
               </div>
             </div>
           </div>
@@ -134,8 +133,8 @@
                 <i class="lni-layers"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Pague com Segurança </a></h3>
-                <p>Ao efetuar um pedido no nosso aplicativo seus dados estarão seguros, garantimos a proteção de suas informações.  </p>
+                <h3><a href="#">Cadastro seguro</a></h3>
+                <p>Ao efetuar o cadastro seus dados estarão seguros, garantimos a proteção de suas informações.  </p>
               </div>
             </div>
           </div>
@@ -162,8 +161,8 @@
                 <i class="lni-users"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Peça com Facilidade</a></h3>
-                <p>Monte seu prato de acordo com a preferência, sem sair da sua residência.  </p>
+                <h3><a href="#">Descubra sua vocação</a></h3>
+                <p>Efetue o questionario, e descubra sua vocação em menos de 5 minutos.  </p>
               </div>
             </div>
           </div>
@@ -178,8 +177,8 @@
                 <i class="lni-rocket"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Agilidade</a></h3>
-                <p>Realizando sua compra, seu pedido chegará o mais rápido possivel. </p>
+                <h3><a href="#">Foco no cliente</a></h3>
+                <p>Entender as necessidades e desejos do cliente e fornecer aquilo que ele procura. </p>
               </div>
             </div>
           </div>
@@ -201,16 +200,14 @@
                 </div>
                 <div class="content">
                   <p>
-                    Somos uma equipe inovadora com o objetivo de implantar uma nova maneira de self-service, nosso aplicativo visa o melhor atendimento e usuabilidade ao cliente.
-                    Nosso diferencial visa a possibilidade de escolha ao usuário, podendo variar entre almoço ou lanche personalizado. Quer conhecer nosso trabalho?
+                  Somos uma equipe inovadora com o objetivo de direcionar pessoas que desejam entrar no ramo da tecnologia e não sabem em que cargo se encaixam. Nosso diferencial é oferecer algo totalmente direcionado para área de TI, podendo ter um resultado mais assertivo.
                   </p>
-                  <a href="#" class="btn btn-common mt-3">Clique aqui</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
-            <img class="img-fluid" src="img/about/a1.png" alt="" >
+            <img class="img-fluid" src="img/a3.png" alt="" >
           </div>
         </div>
       </div>
@@ -231,7 +228,7 @@
             <!-- Team Item Starts -->
             <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
               <div class="team-img">
-                <img class="img-fluid" src="img/team/e.jpg" alt="">
+                <img class="img-fluid" src="https://avatars.githubusercontent.com/u/82041364?v=4" alt="">
               </div>
               <div class="contetn">
                 <div class="info-text">
@@ -252,14 +249,14 @@
             <!-- Team Item Starts -->
             <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
               <div class="team-img">
-                <img class="img-fluid" src="img/team/b.jpg" alt="">
+                <img class="img-fluid" src="https://avatars.githubusercontent.com/u/92065476?v=4" alt="">
               </div>
               <div class="contetn">
                 <div class="info-text">
                   <h3><a href="#">Luiz Ageo</a></h3>
                   <p>Scrum Master</p>
                 </div>
-                <p>Sou o líder da equipe Scrum, defendo o time para garantir que todas as práticas sejam seguidas.</p>
+                <p>Sou o responsável por garantir que o Time Scrum se oriente pelos valores e práticas do Scrum.</p>
                 <ul class="social-icons">
                   <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
@@ -273,14 +270,14 @@
             <!-- Team Item Starts -->
             <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
               <div class="team-img">
-                <img class="img-fluid" src="img/team/c.png" alt="">
+                <img class="img-fluid" src="https://avatars.githubusercontent.com/u/84162653?v=4" alt="">
               </div>
               <div class="contetn">
                 <div class="info-text">
                   <h3><a href="#">Mateus de Queiroz</a></h3>
-                  <p>Progetista</p>
+                  <p>Tester</p>
                 </div>
-                <p>Sou o profissional que cria o design em geral e outros materiais que são necessários para o desenvolvimento.</p>
+                <p>Sou o responsável por verificar se um sistema está rodando conforme o esperado.</p>
                 <ul class="social-icons">
                   <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
@@ -294,14 +291,14 @@
             <!-- Team Item Starts -->
             <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
               <div class="team-img">
-                <img class="img-fluid" src="img/team/d.jpg" alt="">
+                <img class="img-fluid" src="https://avatars.githubusercontent.com/u/92065269?v=4" alt="">
               </div>
               <div class="contetn">
                 <div class="info-text">
                   <h3><a href="#">Lucas Vieira</a></h3>
-                  <p>Testador</p>
+                  <p>Desenvolvedor</p>
                 </div>
-                <p>Sou o responsável por testes e desenvolvimentos do projeto, ajudando a revisar requisitos e levantar cenários.</p>
+                <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
                   <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
@@ -321,9 +318,9 @@
               <div class="contetn">
                 <div class="info-text">
                   <h3><a href="#">Samuel Santos</a></h3>
-                  <p>Implementador</p>
+                  <p>Desenvolvedor</p>
                 </div>
-                <p>Sou o responsável por criar componentes de testes e oferecer suporte ao desenvolvimento.</p>
+                <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
                   <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
@@ -333,30 +330,7 @@
             </div>
             <!-- Team Item Ends -->
           </div>
-          <div class="col-lg-6 col-md-12 col-xs-12">
-            <!-- Team Item Starts -->
-            <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
-              <div class="team-img">
-                <img class="img-fluid" src="img/team/f.jpg" alt="">
-              </div>
-              <div class="contetn">
-                <div class="info-text">
-                  <h3><a href="#">Victor Augusto</a></h3>
-                  <p>Analítico</p>
-                </div>
-                <p>Sou o profissional que acompanha o projeto de perto, elaborando planos e melhorias.</p>
-                <ul class="social-icons">
-                  <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- Team Item Ends -->
-          </div>
-          <div class="col-lg-6 col-md-12 col-xs-12">
-        </div>
-      </div>
+         
     </section>
     <!-- Team Section End -->
   
@@ -490,8 +464,7 @@
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button text-left">
-                      <button class="btn btn-common2" id="form-submit" type="submit">Enviar Mensagem</button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                      <button class="btn btn-common2" id="form-submit"  type="submit">Enviar Mensagem</button>
                       <div class="clearfix"></div> 
                     </div>
                   </div>
@@ -516,51 +489,41 @@
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
               <div class="widget">
-                <h3 class="footer-logo"><img src="img/logo1.png" alt=""></h3>
-                
-                <div class="social-icon">
-                  <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
-                  <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
-                  <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
-                  <a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a>
-                </div>
+                <h3 class="footer-logo"><img src="img/logoa.png" alt=""></h3>
+                          
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-              <h3 class="footer-titel">Produtos</h3>
+              <h3 class="footer-titel">Áreas</h3>
               <ul class="footer-link">
-                <li><a href="#">Almoço</a></li>
-                <li><a href="#">Bebidas</a></li> 
-                <li><a href="#">Carnes</a></li>
-                <li><a href="#">Lanches</a></li>
-                <li><a href="#">Molhos</a></li>           
-                <li><a href="#">Saladas</a></li>      
+                <li><a href="#">Desenvolvimento</a></li>
+                <li><a href="#">DevOps</a></li> 
+                <li><a href="#">Testes</a></li>
+                <li><a href="#">Gerenciamento de projetos</a></li>
+                <li><a href="#">Analista de dados</a></li>           
                      
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <h3 class="footer-titel">Recursos</h3>
               <ul class="footer-link">
-                <li><a href="#">Escolha de produtos</a></li>
-                <li><a href="#">Opções de pagamento</a></li>
-                <li><a href="#">Confirmação de pagamento</a></li>
-                <li><a href="#">Formas de cadastro</a></li>
-                <li><a href="#">Autenticação de usuário</a></li>
-                <li><a href="#">Confirmação de entrega</a></li>
+                <li><a href="#">Login e Cadastro</a></li>
+                <li><a href="#">Questionário</a></li>
+                <li><a href="#">Visualização dos resultados</a></li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <h3 class="footer-titel">Contato</h3>
               <ul class="address">
                 <li>
-                  <a href="#"><i class="lni-map-marker"></i>Rodovia Senador José Ermírio de Moraes, 1425 -  Sorocaba - São Paulo, Brasil</a>
+                  <a href="#"><i class="lni-map-marker"></i>Sorocaba - SP</a>
                    
                 </li>
                 <li>
                   <a href="#"><i class="lni-phone-handset"></i> Tel: +55 123 123 123</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-envelope"></i> E-mail: lunchornet@gmail.com</a>
+                  <a href="#"><i class="lni-envelope"></i> E-mail: trilhatech@gmail.com</a>
                 </li>
               </ul>
             </div>
@@ -572,7 +535,6 @@
           <div class="row">
             <div class="col-md-12">
               <div class="copyright-content">
-                <p>Copyright © 2020 <a rel="nofollow" href="https://uideck.com">UIdeck</a> All Right Reserved</p>
               </div>
             </div>
           </div>
