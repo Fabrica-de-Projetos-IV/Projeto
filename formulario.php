@@ -1,3 +1,15 @@
+<?php
+session_start();
+include_once('conexao/usuario.php');
+//print_r($_SESSION);
+if ((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)) {
+  unset($_SESSION['usuario']);
+  unset($_SESSION['senha']);
+  header('Location: login.php');
+}
+$logado = $_SESSION['usuario'];
+?>
+
 <!DOCTYPE html>
 <!-- Created By CodingNepal - www.codingnepalweb.com -->
 <!DOCTYPE html>
@@ -13,6 +25,7 @@
 <body>
     <!-- start Quiz button -->
     <div class="start_btn"><button>Iniciar teste</button></div>
+    
     <!-- Info Box -->
     <div class="info_box">
         <div class="info-title"><span>Algumas regras do formulário</span></div>
