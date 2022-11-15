@@ -44,6 +44,11 @@ const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 // if restartQuiz button clicked
 restart_quiz.onclick = () => {
+        a = 0;
+        b = 0;
+        c = 0;
+        d = 0;
+        e = 0;
         quiz_box.classList.add("activeQuiz"); //show quiz box
         result_box.classList.remove("activeResult"); //hide result box
         timeValue = 15;
@@ -235,8 +240,8 @@ function startTimer(time) {
             let correcAns = questions[que_count].answer; //getting correct answer from array
             for (i = 0; i < allOptions; i++) {
                 if (option_list.children[i].textContent == correcAns) { //if there is an option which is matched to an array answer
-                    option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
-                    option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
+                    // option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
+                    // option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
                     console.log("Finalizado: Resposta automática.");
                 }
             }

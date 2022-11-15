@@ -324,9 +324,7 @@ footer button.show {
 }
 
 .result_box .icon {
-    font-size: 100px;
     color: #1E569A;
-    margin-bottom: 10px;
 }
 
 .result_box .complete_text {
@@ -368,15 +366,18 @@ footer button.show {
 .buttons button.restart {
     color: #fff;
     background: #1E569A;
+    width: 130px;
 }
 
 .buttons button.restart:hover {
-    background: #0263ca;
+    color: #1E569A;
+    background: #fff;
 }
 
 .buttons button.quit {
     color: #1E569A;
     background: #fff;
+    width: 130px;
 }
 
 .buttons button.quit:hover {

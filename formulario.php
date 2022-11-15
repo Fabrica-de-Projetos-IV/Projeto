@@ -70,15 +70,16 @@ $logado = $_SESSION['usuario'];
     <!-- Result Box -->
     <div class="result_box">
         <div class="icon">
-            <i class="fas fa-crown"></i>
+            <i><img src="img/teste3.png" alt=""></i>
         </div>
         <div class="complete_text">Você completou o teste!</div>
         <div class="score_text">
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
-            <button class="restart resultado" >Resultado</button>
-            <button class="quit">Sair</button>
+            <button class="resultado quit" >Resultado</button>
+            <button class="restart">Refazer</button>
+            <a href="formulario.php"><button class="quit">Sair</button></a>
         </div>
     </div>
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
