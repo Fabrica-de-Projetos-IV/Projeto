@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<?php
+require_once 'conexao/usuario.php';
+$u = new Usuario;
+?>
+<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <!-- Required meta tags -->
@@ -75,7 +81,7 @@
                 <h2 class="head-title">Trilha Tech,<br>Te colocamos nos <br> trilhos da tecnologia!</h2>
                 <p class="p">Não sabe qual área escolher ? <br>Necessita de alguma dica pra trilhar seu futuro ? </p>
                 <div class="header-button">
-                  <a href="login.php" class="btn btn-common">Faça nosso formulário</i></a>
+                  <a href="login.php" class="btn btn-primary a">Faça nosso formulário</i></a>
                 </div>
               </div>
             </div>
@@ -232,13 +238,13 @@
               </div>
               <div class="contetn">
                 <div class="info-text">
-                  <h3><a href="#">Jackeline Lemos</a></h3>
+                  <h3><a >Jackeline Lemos</a></h3>
                   <p>Product Owner</p>
                 </div>
                 <p>Sou a responsável por representar interesses dos Stakeholders, priorizando o Product Backlog.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
@@ -253,13 +259,13 @@
               </div>
               <div class="contetn">
                 <div class="info-text">
-                  <h3><a href="#">Luiz Ageo</a></h3>
+                  <h3><a >Luiz Ageo</a></h3>
                   <p>Scrum Master</p>
                 </div>
                 <p>Sou o responsável por garantir que o Time Scrum se oriente pelos valores e práticas do Scrum.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
@@ -274,13 +280,13 @@
               </div>
               <div class="contetn">
                 <div class="info-text">
-                  <h3><a href="#">Mateus de Queiroz</a></h3>
+                  <h3><a >Mateus de Queiroz</a></h3>
                   <p>Tester</p>
                 </div>
                 <p>Sou o responsável por verificar se um sistema está rodando conforme o esperado.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
@@ -295,13 +301,13 @@
               </div>
               <div class="contetn">
                 <div class="info-text">
-                  <h3><a href="#">Lucas Vieira</a></h3>
+                  <h3><a >Lucas Vieira</a></h3>
                   <p>Desenvolvedor</p>
                 </div>
                 <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
@@ -317,13 +323,13 @@
               </div>
               <div class="contetn">
                 <div class="info-text">
-                  <h3><a href="#">Samuel Santos</a></h3>
+                  <h3><a >Samuel Santos</a></h3>
                   <p>Desenvolvedor</p>
                 </div>
                 <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
@@ -343,14 +349,14 @@
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/testimonial/img1.jpg" alt="">
+                    <img src="img/user.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a href="#">Gabriel Motta</a></h2>
-                    <h3><a href="#">Telemarketing</a></h3>
+                    <h2><a >Nome</a></h2>
+                    <h3><a >Profissão</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Amei o aplicativo de pedidos, facil de usar e com design bem bonito, a comida estava muito boa, continuem assim ótimo trabalho...</p>
+                    <p class="description">Texto.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
@@ -364,14 +370,14 @@
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/testimonial/img2.jpg" alt="">
+                    <img src="img/user.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a href="#">Duda Reis</a></h2>
-                    <h3><a href="#">Estudante de Moda</a></h3>
+                    <h2><a >Nome</a></h2>
+                    <h3><a >Profissão</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Incrível, achei sensacional montar meu prato via web, único detalhe foi que o prazo da entrega não ocorreu conforme o combinado!</p>
+                    <p class="description">Texto.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
@@ -385,15 +391,15 @@
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/testimonial/img3.jpg" alt="">
+                    <img src="img/user.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a href="#">Willian Jr</a></h2>
-                    <h3><a href="#">Jogador de futebol</a></h3>
+                    <h2><a >Nome</a></h2>
+                    <h3><a >Profissão</a></h3>
                   </div>
                   <div class="content">
                     <p class="description">
-                      Me gustó mucho el condimento de la comida, pero tuve dificultades con el servicio porque soy de otro país...</p>
+                    Texto.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>    
                       <span><i class="lni-star-filled"></i></span>    
@@ -407,14 +413,14 @@
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/testimonial/img4.jpg" alt="">
+                    <img src="img/user.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a href="#">Joana Lopes</a></h2>
-                    <h3><a href="#">Chefe de cozinha</a></h3>
+                    <h2><a >Nome</a></h2>
+                    <h3><a >Profissão</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Em si, gostei do aplicativo, sensacional!!! Mas, poderia ter mais opções de guarnições nos pedidos.</p>
+                    <p class="description">Texto.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
@@ -443,28 +449,28 @@
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">   
           <div class="col-lg-7 col-md-12 col-sm-12">
             <div class="contact-block">
-              <form id="contactForm">
+              <form  method="POST">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Nome" required data-error="Por favor insira seu nome">
+                      <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required data-error="Por favor insira seu nome">
                       <div class="help-block with-errors"></div>
                     </div>                                 
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Por favor insira seu email">
+                      <input type="email" placeholder="Email" id="email" class="form-control" name="email" required data-error="Por favor insira seu email">
                       <div class="help-block with-errors"></div>
                     </div> 
                   </div>
                   
                   <div class="col-md-12">
                     <div class="form-group"> 
-                      <textarea class="form-control" id="message" placeholder="Sua Mensagem" rows="7" data-error="Deixe sua Mensagem" required></textarea>
+                      <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Sua Mensagem" rows="7" data-error="Deixe sua Mensagem" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button text-left">
-                      <button class="btn btn-common2" id="form-submit"  type="submit">Enviar Mensagem</button>
+                      <button class="btn btn-primary b" name="submit" id="submit"  type="submit">Enviar Mensagem</button>
                       <div class="clearfix"></div> 
                     </div>
                   </div>
@@ -489,7 +495,7 @@
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
               <div class="widget">
-                <h3 class="footer-logo"><img src="img/logoa.png" alt=""></h3>
+                <h3 class="footer-logo"><img src="img/teste3.png" alt=""></h3>
                           
               </div>
             </div>
@@ -566,6 +572,34 @@
     <script src="js/main.js"></script>
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.min.js"></script>
+
+    <?php
+    if (isset($_POST['submit'])) {
+        $nome = addslashes($_POST['nome']);
+        $usuario = addslashes($_POST['email']);
+        $email = addslashes($_POST['mensagem']);
+
+
+
+            if ($u->msgErro == "") {
+                    $result = mysqli_query($conexao, "INSERT INTO tab_contato(nome,email,mensagem) 
+                    VALUES ('$nome','$usuario','$email')");
+    ?>
+                    <div id="msg-sucesso" class="fixed-top">
+                       mensagem enviada com sucesso!
+                    </div>
+                <?php
+                
+            } else {
+                ?>
+                <div class="msg-erro fixed-top">
+                    Erro!
+                </div>
+            <?php
+            }
+    
+    }
+    ?>
       
   </body>
 </html>

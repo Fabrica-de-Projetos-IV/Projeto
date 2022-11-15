@@ -18,7 +18,7 @@ $u = new Usuario;
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a href="index.php"><img class="rounded-circle" src="img/bola3.png" alt="image"></a>
+            <a href="index.php"><img class="rounded-circle" src="img/voltar2.png" width="40px" alt="image"></a>
 
         </div>
         </div>
@@ -110,27 +110,27 @@ $u = new Usuario;
                     VALUES ('$nome','$usuario','$email','$senha')");
     ?>
                     <div id="msg-sucesso" class="fixed-top">
-                        echo "Usuário cadastrado com sucesso!";
+                        Usuário cadastrado com sucesso!
                     </div>
                 <?php
                 } else {
                 ?>
                     <div class="msg-erro fixed-top">
-                        echo "As senhas não coincidem!";
+                        As senhas não coincidem!
                     </div>
                 <?php
                 }
             } else {
                 ?>
                 <div class="msg-erro fixed-top">
-                    echo "Erro: " . $u->msgErro;;
+                    Erro!
                 </div>
             <?php
             }
         } else {
             ?>
             <div class="msg-erro fixed-top">
-                echo "Preencha todos os campos!";
+                Preencha todos os campos!
             </div>
     <?php
 

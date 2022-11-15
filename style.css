@@ -40,6 +40,7 @@ body {
 .topb {
     position: absolute;
     margin-top: 10px;
+    width: 100%;
 }
 
 .start_btn button {
@@ -388,4 +389,20 @@ footer button.show {
 .buttons button.quit:hover {
     color: #fff;
     background: #1E569A;
+}
+
+.btn-primary.a {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    color: #1E569A;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary:hover.a {
+    background-color: #1E569A !important;
+    border-color: #1E569A !important;
+    color: #fff;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

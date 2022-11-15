@@ -24,7 +24,7 @@ $logado = $_SESSION['usuario'];
 </head>
 <body>
     <!-- start Quiz button -->
-    <div class="start_btn"><div><button>Iniciar teste</button></div><div><button class="topb">sair</button></div></div>
+    <div class="start_btn"><div><button class="btn btn-primary a">Iniciar teste</button></div><div><a href="sair.php"><button class="topb btn btn-primary a">sair</button></a></div></div>
     
     
     <!-- Info Box -->
@@ -32,10 +32,10 @@ $logado = $_SESSION['usuario'];
         <div class="info-title"><span>Algumas regras do formulário</span></div>
         <div class="info-list">
             <div class="info">1. Você terá apenas<span> 15 segundos</span> para cada pergunta.</div>
-            <div class="info">2. Depois de selecionar sua resposta não pode ser desfeita.</div>
-            <div class="info">3. Você não pode selecionar opção depois que o tempo acabar.</div>
-            <div class="info">4. Você não pode sair do Teste enquanto estiver jogando.</div>
-            <div class="info">5. regra 5.</div>
+            <div class="info">2. Depois de selecionar sua resposta ela não pode ser desfeita.</div>
+            <div class="info">3. Você não pode selecionar alguma opção depois que o tempo acabar.</div>
+            <div class="info">4. Você não pode sair do teste enquanto estiver respondendo.</div>
+            <div class="info">5. Quando o tempo acabar a pergunta será desconsiderada.</div>
         </div>
         <div class="buttons">
             <button class="quit">Sair</button>
