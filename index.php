@@ -7,35 +7,25 @@ $u = new Usuario;
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>LUNCH OR NET </title>
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <!-- Icon -->
     <link rel="stylesheet" href="fonts/line-icons.css">
-    <!-- Owl carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.css">
-    <!-- Animate -->
     <link rel="stylesheet" href="css/animate.css">
-    <!-- Main Style -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- Responsive Style -->
     <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
 
-    <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
-      <!-- Navbar Start -->
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand"><img src="img/logob.png" alt=""></a>       
+          <a href="index.php" class="navbar-brand"><img src="img/logob.png" alt=""></a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -70,9 +60,7 @@ $u = new Usuario;
           </div>
         </div>
       </nav>
-      <!-- Navbar End -->
 
-      <!-- Hero Area Start -->
       <div id="hero-area" class="hero-area-bg">
         <div class="container">      
           <div class="row">
@@ -93,11 +81,9 @@ $u = new Usuario;
           </div> 
         </div> 
       </div>
-      <!-- Hero Area End -->
 
     </header>
   
-    <!-- Services Section Start -->
     <section id="services" class="section-padding">
       <div class="container">
         <div class="section-header text-center">
@@ -105,7 +91,6 @@ $u = new Usuario;
           <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
         </div>
         <div class="row">
-          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
               <div class="icon">
@@ -117,7 +102,6 @@ $u = new Usuario;
               </div>
             </div>
           </div>
-          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
               <div class="icon">
@@ -130,9 +114,6 @@ $u = new Usuario;
             </div>
           </div>
           
-
-
-          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
               <div class="icon">
@@ -145,7 +126,6 @@ $u = new Usuario;
             </div>
           </div>
 
-            <!-- Services item -->
             <div class="col-md-6 col-lg-4 col-xs-12">
               <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
                 <div class="icon">
@@ -158,9 +138,6 @@ $u = new Usuario;
               </div>
             </div>
 
-
-
-            <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
               <div class="icon">
@@ -173,10 +150,6 @@ $u = new Usuario;
             </div>
           </div>
 
-
-          
-        
-          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
               <div class="icon">
@@ -191,9 +164,7 @@ $u = new Usuario;
         </div>
       </div>
     </section>
-    <!-- Services Section End -->
 
-    <!-- About Section start -->
     <div class="about-area section-padding bg-gray">
       <div class="container">
         <div class="row">
@@ -218,11 +189,7 @@ $u = new Usuario;
         </div>
       </div>
     </div>
-    <!-- About Section End -->
 
-     
-
-    <!-- Team Section Start -->
     <section id="team" class="section-padding bg-gray">
       <div class="container">
         <div class="section-header text-center">          
@@ -231,8 +198,8 @@ $u = new Usuario;
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-12 col-xs-12">
-            <!-- Team Item Starts -->
-            <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
+
+          <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
               <div class="team-img">
                 <img class="img-fluid" src="https://avatars.githubusercontent.com/u/82041364?v=4" alt="">
               </div>
@@ -243,17 +210,17 @@ $u = new Usuario;
                 </div>
                 <p>Sou a responsável por representar interesses dos Stakeholders, priorizando o Product Backlog.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/jackeline-lemos-de-jesus-9915561b4/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/JackelineLemos"><i class="lni lni-github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/_lemosjack/"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
-            <!-- Team Item Ends -->
+
           </div>
           <div class="col-lg-6 col-md-12 col-xs-12">
-            <!-- Team Item Starts -->
-            <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
+
+          <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
               <div class="team-img">
                 <img class="img-fluid" src="https://avatars.githubusercontent.com/u/92065476?v=4" alt="">
               </div>
@@ -264,17 +231,17 @@ $u = new Usuario;
                 </div>
                 <p>Sou o responsável por garantir que o Time Scrum se oriente pelos valores e práticas do Scrum.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/luiz-ag%C3%AAo-68442a225/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/AgeoBrito"><i class="lni lni-github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/ageobrito/"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
-            <!-- Team Item Ends -->
+
           </div>
           <div class="col-lg-6 col-md-12 col-xs-12">
-            <!-- Team Item Starts -->
-            <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
+
+          <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
               <div class="team-img">
                 <img class="img-fluid" src="https://avatars.githubusercontent.com/u/84162653?v=4" alt="">
               </div>
@@ -285,17 +252,17 @@ $u = new Usuario;
                 </div>
                 <p>Sou o responsável por verificar se um sistema está rodando conforme o esperado.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/mateus-queiroz-davidson96/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/MQueirozD"><i class="lni lni-github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/m_queirozz/"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
-            <!-- Team Item Ends -->
+
           </div>
           <div class="col-lg-6 col-md-12 col-xs-12">
-            <!-- Team Item Starts -->
-            <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
+
+          <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
               <div class="team-img">
                 <img class="img-fluid" src="https://avatars.githubusercontent.com/u/92065269?v=4" alt="">
               </div>
@@ -306,18 +273,18 @@ $u = new Usuario;
                 </div>
                 <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/luucas-vieira/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/LucasVieira1"><i class="lni lni-github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/vieiralucass/"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
-            <!-- Team Item Ends -->
+
           </div>
           
           <div class="col-lg-6 col-md-12 col-xs-12">
-            <!-- Team Item Starts -->
-            <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
+
+          <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
               <div class="team-img">
                 <img class="img-fluid" src="img/team/a.jpg" alt="">
               </div>
@@ -328,19 +295,17 @@ $u = new Usuario;
                 </div>
                 <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
-                  <li><a href="#"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni lni-github" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/samuel-santoss/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                  <li><a href="https://github.com/Sam-Pina"><i class="lni lni-github" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/samukaz_/"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
-            <!-- Team Item Ends -->
+
           </div>
          
     </section>
-    <!-- Team Section End -->
-  
-    <!-- Testimonial Section Start -->
+
     <section id="testimonial" class="testimonial section-padding">
       <div class="container">
         <div class="row justify-content-center">
@@ -437,9 +402,6 @@ $u = new Usuario;
       </div>
     </section>
 
-    <!-- Testimonial Section End -->
-
-    <!-- Contact Section Start -->
     <section id="contact" class="section-padding bg-gray">    
       <div class="container">
         <div class="section-header text-center">          
@@ -486,9 +448,7 @@ $u = new Usuario;
         </div>
       </div> 
     </section>
-    <!-- Contact Section End -->
 
-    <!-- Footer Section Start -->
     <footer id="footer" class="footer-area section-padding">
       <div class="container">
         <div class="container">
@@ -547,20 +507,15 @@ $u = new Usuario;
         </div>
       </div>   
     </footer> 
-    <!-- Footer Section End -->
 
-    <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
     	<i class="lni-arrow-up"></i>
     </a>
     
-    <!-- Preloader -->
     <div id="preloader">
       <div class="loader" id="loader-1"></div>
     </div>
-    <!-- End Preloader -->
-    
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="js/jquery-min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

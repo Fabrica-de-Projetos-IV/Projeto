@@ -44,7 +44,6 @@ $u = new Usuario;
                         <input class="form-control border a" type="password" name="senha" placeholder="Senha..." required/>
                         <button class="btn btn-primary a inputSubmit" name="submit" type="submit">Entrar</button>
                         <br>
-                        <a href="#" class="forgot">Esqueci minha senha</a>
                     </form>
                 </div>
                 <div class="form signupForm" id="corpo-form-cad">
@@ -66,15 +65,6 @@ $u = new Usuario;
     </div>
     </div>
 
-<!--  <button onclick="abrirAlerta()">Confirmar</button>
-                         function abrirAlerta(){
-                            swal({
-                                title: "Good job!",
-                                text: "You clicked the button!",
-                                icon: "success",
-                            });
-                        }
-                        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js%22%3E</script>  -->
     <script>
         const signinBtn = document.querySelector(".signinBtn");
         const signupBtn = document.querySelector(".signupBtn");
