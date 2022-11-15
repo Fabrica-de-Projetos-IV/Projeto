@@ -2,7 +2,11 @@
 let questions = [{
         numb: 1,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -14,7 +18,11 @@ let questions = [{
     {
         numb: 2,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -26,7 +34,11 @@ let questions = [{
     {
         numb: 3,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -38,7 +50,11 @@ let questions = [{
     {
         numb: 4,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -50,7 +66,11 @@ let questions = [{
     {
         numb: 5,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -62,7 +82,11 @@ let questions = [{
     {
         numb: 6,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -74,7 +98,11 @@ let questions = [{
     {
         numb: 7,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -86,7 +114,11 @@ let questions = [{
     {
         numb: 8,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",
@@ -98,7 +130,11 @@ let questions = [{
     {
         numb: 9,
         question: "PERGUNTA",
-        answer: "Resposta certa",
+        answer: "A",
+        answer1: "B",
+        answer2: "C",
+        answer3: "D",
+        answer4: "E",
         options: [
             "A",
             "B",

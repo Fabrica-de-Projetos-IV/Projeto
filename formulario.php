@@ -77,7 +77,7 @@ $logado = $_SESSION['usuario'];
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
-            <button class="restart" href="resultado.php">Resultado</button>
+            <button class="restart resultado" >Resultado</button>
             <button class="quit">Sair</button>
         </div>
     </div>

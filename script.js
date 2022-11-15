@@ -9,6 +9,8 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+const resultado = document.querySelector(".resultado");
+//const resultado = document.querySelector(".resultado");
 // if startQuiz button clicked
 start_btn.onclick = () => {
         info_box.classList.add("activeInfo"); //show info box
@@ -33,6 +35,11 @@ let userScore = 0;
 let counter;
 let counterLine;
 let widthValue = 0;
+let a = 0;
+let b = 0;
+let c = 0;
+let d = 0;
+let e = 0;
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 // if restartQuiz button clicked
@@ -106,29 +113,85 @@ function optionSelected(answer) {
     clearInterval(counterLine); //clear counterLine
     let userAns = answer.textContent; //getting user selected option
     let correcAns = questions[que_count].answer; //getting correct answer from array
+    let teste1 = questions[que_count].answer1;
+    let teste2 = questions[que_count].answer2;
+    let teste3 = questions[que_count].answer3;
+    let teste4 = questions[que_count].answer4;
     const allOptions = option_list.children.length; //getting all option items
+    console.log("SELECIONOU: ", userAns);
+
+    // console.log("CORRETO1: ", correcAns);
+
+    // console.log("CORRETO2: ", teste1);
+
+    // console.log("CORRETO3: ", teste2);
+
+    // console.log("CORRETO4: ", teste3);
+
+    // console.log("CORRETO5: ", teste4);
+
 
     answer.classList.add("correct");
-    /*
+    //if (userAns = "A") {
+    //    a++;
+    //    console.log(a);
+    //}
+
+    //log(answer.textContent);
+
     if (userAns == correcAns) { //if user selected option is equal to array's correct answer
         //userScore += 1; //upgrading score value with 1
-        answer.classList.add("correct"); //adding green color to correct selected option
+        a += 1;
+        console.log("A = ", a);
+        console.log("B = ", b);
+        console.log("C = ", c);
+        console.log("D = ", d);
+        console.log("E = ", e);
+        // answer.classList.add("correct"); //adding green color to correct selected option
         //answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
-        console.log("Correct Answer");
-        console.log("Your correct answers = " + userScore);
+        //console.log("Correct Answer");
+        // console.log("Your correct answers = " + userScore);
+    } else if (userAns == teste1) {
+        b += 1;
+        console.log("A = ", a);
+        console.log("B = ", b);
+        console.log("C = ", c);
+        console.log("D = ", d);
+        console.log("E = ", e);
+    } else if (userAns == teste2) {
+        c += 1;
+        console.log("A = ", a);
+        console.log("B = ", b);
+        console.log("C = ", c);
+        console.log("D = ", d);
+        console.log("E = ", e);
+    } else if (userAns == teste3) {
+        d += 1;
+        console.log("A = ", a);
+        console.log("B = ", b);
+        console.log("C = ", c);
+        console.log("D = ", d);
+        console.log("E = ", e);
+    } else if (userAns == teste4) {
+        e += 1;
+        console.log("A = ", a);
+        console.log("B = ", b);
+        console.log("C = ", c);
+        console.log("D = ", d);
+        console.log("E = ", e);
     } else {
-        answer.classList.add("incorrect"); //adding red color to correct selected option
+        //answer.classList.add("incorrect"); //adding red color to correct selected option
         //answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cross icon to correct selected option
-        console.log("Wrong Answer");
-        for (i = 0; i < allOptions; i++) {
-            if (option_list.children[i].textContent == correcAns) { //if there is an option which is matched to an array answer 
-                option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
-                option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
-                console.log("Auto selected correct answer.");
-            }
-        }
+        // console.log("Wrong Answer");
+        // for (i = 0; i < allOptions; i++) {
+        //    if (option_list.children[i].textContent == correcAns) { //if there is an option which is matched to an array answer 
+        //        option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
+        //       option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
+        //       // console.log("Auto selected correct answer.");
+        //   }
+        //}
     }
-    */
+
     for (i = 0; i < allOptions; i++) {
         option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
     }
@@ -201,4 +264,33 @@ function queCounter(index) {
     //creating a new span tag and passing the question number and total question
     let totalQueCounTag = '<span><p>' + index + '</p> de <p>' + questions.length + '</p> Perguntas</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag; //adding new span tag inside bottom_ques_counter
+}
+
+resultado.onclick = () => {
+    console.log("A = ", a);
+    console.log("B = ", b);
+    console.log("C = ", c);
+    console.log("D = ", d);
+    console.log("E = ", e);
+    f = Math.max(a, b, c, d, e);
+    console.log("maior numero: ", f);
+
+    if (f == a) {
+        console.log("A é o maior "); { varWindow = window.open('resultados/resulDev.php', 'popup') }
+
+    } else if (f == b) {
+        console.log("B é o maior "); { varWindow = window.open('resultados/resulDevoPS.php', 'popup') }
+
+    } else if (f == c) {
+        console.log("C é o maior "); { varWindow = window.open('resultados/resulTester.php', 'popup') }
+
+    } else if (f == d) {
+        console.log("D é o maior "); { varWindow = window.open('resultados/resulgeren.php', 'popup') }
+
+    } else if (f == e) {
+        console.log("E é o maior "); { varWindow = window.open('resultados/resulAnalista.php', 'popup') }
+
+    }
+
+
 }
