@@ -24,7 +24,8 @@ $logado = $_SESSION['usuario'];
 </head>
 <body>
     <!-- start Quiz button -->
-    <div class="start_btn"><button>Iniciar teste</button></div>
+    <div class="start_btn"><div><button>Iniciar teste</button></div><div><button class="topb">sair</button></div></div>
+    
     
     <!-- Info Box -->
     <div class="info_box">
