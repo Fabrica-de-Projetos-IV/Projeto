@@ -455,7 +455,7 @@ $u = new Usuario;
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
               <div class="widget">
-                <h3 class="footer-logo"><img src="img/teste3.png" alt=""></h3>
+                <h3 class="footer-logo"><img src="img/testelogo2.png" alt=""></h3>
                           
               </div>
             </div>
@@ -463,7 +463,7 @@ $u = new Usuario;
               <h3 class="footer-titel">Áreas</h3>
               <ul class="footer-link">
                 <li><a href="#">Desenvolvimento</a></li>
-                <li><a href="#">DevOps</a></li> 
+                <li><a href="#">Redes</a></li> 
                 <li><a href="#">Testes</a></li>
                 <li><a href="#">Gerenciamento de projetos</a></li>
                 <li><a href="#">Analista de dados</a></li>           

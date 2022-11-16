@@ -186,8 +186,11 @@ section {
     background: #fff;
 }
 
+
+/* fonte pergunta */
+
 section .que_text {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -196,12 +199,15 @@ section .option_list {
     display: block;
 }
 
+
+/* fonte resposta */
+
 section .option_list .option {
     background: aliceblue;
     border: 1px solid #1E569A;
     border-radius: 5px;
     padding: 8px 15px;
-    font-size: 17px;
+    font-size: 13px;
     margin-bottom: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
