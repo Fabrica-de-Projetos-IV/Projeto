@@ -245,7 +245,7 @@ resultado.onclick = () => {
     console.log("C = ", geren);
     console.log("D = ", teste);
     console.log("E = ", analista);
-    f = Math.max(a, b, c, d, e);
+    f = Math.max(dev, redes, geren, teste, analista);
     console.log("maior numero: ", f);
 
     if (f == dev) {
@@ -255,10 +255,10 @@ resultado.onclick = () => {
         console.log("B é o maior "); { varWindow = window.open('smash-template-opl/Redes/smash-template-opl/redes.php', 'popup') }
 
     } else if (f == geren) {
-        console.log("C é o maior "); { varWindow = window.open('smash-template-opl/QA/smash-template-opl/qa.php', 'popup') }
+        console.log("C é o maior "); { varWindow = window.open('smash-template-opl/Gerenciamento de projetos/smash-template-opl/geren.php', 'popup') }
 
     } else if (f == teste) {
-        console.log("D é o maior "); { varWindow = window.open('smash-template-opl/Gerenciamento de projetos/smash-template-opl/geren.php', 'popup') }
+        console.log("D é o maior "); { varWindow = window.open('smash-template-opl/QA/smash-template-opl/qa.php', 'popup') }
 
     } else if (f == analista) {
         console.log("E é o maior "); { varWindow = window.open('smash-template-opl/Analista de dados/smash-template-opl/analista.php', 'popup') }
