@@ -33,19 +33,19 @@ let userScore = 0;
 let counter;
 let counterLine;
 let widthValue = 0;
-let a = 0;
-let b = 0;
-let c = 0;
-let d = 0;
-let e = 0;
+let dev = 0;
+let redes = 0;
+let geren = 0;
+let teste = 0;
+let analista = 0;
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = () => {
-    a = 0;
-    b = 0;
-    c = 0;
-    d = 0;
-    e = 0;
+    dev = 0;
+    redes = 0;
+    geren = 0;
+    teste = 0;
+    analista = 0;
     quiz_box.classList.add("activeQuiz");
     result_box.classList.remove("activeResult");
     timeValue = 15;
@@ -138,44 +138,44 @@ function optionSelected(answer) {
 
     if (userAns == correcAns) { //if user selected option is equal to array's correct answer
         //userScore += 1; //upgrading score value with 1
-        a += 1;
-        console.log("A = ", a);
-        console.log("B = ", b);
-        console.log("C = ", c);
-        console.log("D = ", d);
-        console.log("E = ", e);
+        dev += 1;
+        console.log("A = ", dev);
+        console.log("B = ", redes);
+        console.log("C = ", geren);
+        console.log("D = ", teste);
+        console.log("E = ", analista);
         // answer.classList.add("correct"); //adding green color to correct selected option
         //answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
         //console.log("Correct Answer");
         // console.log("Your correct answers = " + userScore);
     } else if (userAns == teste1) {
-        b += 1;
-        console.log("A = ", a);
-        console.log("B = ", b);
-        console.log("C = ", c);
-        console.log("D = ", d);
-        console.log("E = ", e);
+        redes += 1;
+        console.log("A = ", dev);
+        console.log("B = ", redes);
+        console.log("C = ", geren);
+        console.log("D = ", teste);
+        console.log("E = ", analista);
     } else if (userAns == teste2) {
-        c += 1;
-        console.log("A = ", a);
-        console.log("B = ", b);
-        console.log("C = ", c);
-        console.log("D = ", d);
-        console.log("E = ", e);
+        geren += 1;
+        console.log("A = ", dev);
+        console.log("B = ", redes);
+        console.log("C = ", geren);
+        console.log("D = ", teste);
+        console.log("E = ", analista);
     } else if (userAns == teste3) {
-        d += 1;
-        console.log("A = ", a);
-        console.log("B = ", b);
-        console.log("C = ", c);
-        console.log("D = ", d);
-        console.log("E = ", e);
+        teste += 1;
+        console.log("A = ", dev);
+        console.log("B = ", redes);
+        console.log("C = ", geren);
+        console.log("D = ", teste);
+        console.log("E = ", analista);
     } else if (userAns == teste4) {
-        e += 1;
-        console.log("A = ", a);
-        console.log("B = ", b);
-        console.log("C = ", c);
-        console.log("D = ", d);
-        console.log("E = ", e);
+        analista += 1;
+        console.log("A = ", dev);
+        console.log("B = ", redes);
+        console.log("C = ", geren);
+        console.log("D = ", teste);
+        console.log("E = ", analista);
     } else {
 
     }
@@ -240,28 +240,28 @@ function queCounter(index) {
 }
 
 resultado.onclick = () => {
-    console.log("A = ", a);
-    console.log("B = ", b);
-    console.log("C = ", c);
-    console.log("D = ", d);
-    console.log("E = ", e);
+    console.log("A = ", dev);
+    console.log("B = ", redes);
+    console.log("C = ", geren);
+    console.log("D = ", teste);
+    console.log("E = ", analista);
     f = Math.max(a, b, c, d, e);
     console.log("maior numero: ", f);
 
-    if (f == a) {
-        console.log("A é o maior "); { varWindow = window.open('resultados/resulDev.php', 'popup') }
+    if (f == dev) {
+        console.log("A é o maior "); { varWindow = window.open('smash-template-opl/Dev/smash-template-opl/dev.php', 'popup') }
 
-    } else if (f == b) {
-        console.log("B é o maior "); { varWindow = window.open('resultados/resulDevoPS.php', 'popup') }
+    } else if (f == redes) {
+        console.log("B é o maior "); { varWindow = window.open('smash-template-opl/Redes/smash-template-opl/redes.php', 'popup') }
 
-    } else if (f == c) {
-        console.log("C é o maior "); { varWindow = window.open('resultados/resulTester.php', 'popup') }
+    } else if (f == geren) {
+        console.log("C é o maior "); { varWindow = window.open('smash-template-opl/QA/smash-template-opl/qa.php', 'popup') }
 
-    } else if (f == d) {
-        console.log("D é o maior "); { varWindow = window.open('resultados/resulgeren.php', 'popup') }
+    } else if (f == teste) {
+        console.log("D é o maior "); { varWindow = window.open('smash-template-opl/Gerenciamento de projetos/smash-template-opl/geren.php', 'popup') }
 
-    } else if (f == e) {
-        console.log("E é o maior "); { varWindow = window.open('resultados/resulAnalista.php', 'popup') }
+    } else if (f == analista) {
+        console.log("E é o maior "); { varWindow = window.open('smash-template-opl/Analista de dados/smash-template-opl/analista.php', 'popup') }
 
     }
 
