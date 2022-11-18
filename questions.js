@@ -50,16 +50,16 @@ let questions = [{
         numb: 4,
         question: "No meu tempo livre eu gosto de:",
         answer: "A - Jogar vídeo games",
-        answer1: "C – Ficar nas redes sociais",
-        answer2: "E – Estar com as pessoas que eu gosto",
-        answer3: "B – Organizar meus documentos/tarefas",
-        answer4: "D – Navego pela internet descobrindo novos aplicativos/sites",
+        answer1: "C - Ficar nas redes sociais",
+        answer2: "E - Estar com as pessoas que eu gosto",
+        answer3: "B - Organizar meus documentos/tarefas",
+        answer4: "D - Navego pela internet descobrindo novos aplicativos/sites",
         options: [
             "A - Jogar vídeo games",
-            "B – Organizar meus documentos/tarefas",
-            "C – Ficar nas redes sociais",
-            "D – Navego pela internet descobrindo novos aplicativos/sites",
-            "E – Estar com as pessoas que eu gosto"
+            "B - Organizar meus documentos/tarefas",
+            "C - Ficar nas redes sociais",
+            "D - Navego pela internet descobrindo novos aplicativos/sites",
+            "E - Estar com as pessoas que eu gosto"
         ]
     },
     {
