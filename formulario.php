@@ -60,7 +60,7 @@ $logado = $_SESSION['usuario'];
     </div>
     <div class="result_box">
         <div class="icon">
-            <i><img src="img/teste3.png" alt=""></i>
+            <i><img src="img/azul200.png" alt=""></i>
         </div>
         <div class="complete_text">Você completou o teste!</div>
         <div class="score_text">
