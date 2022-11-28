@@ -10,7 +10,7 @@ $u = new Usuario;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>TrilhaTech </title>
+    <title>TrilhaTech</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="fonts/line-icons.css">
@@ -25,7 +25,7 @@ $u = new Usuario;
     <header id="header-wrap">
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
-          <a href="index.php" class="navbar-brand"><img src="img/logob.png" alt=""></a>       
+          <a href="index.php" class="navbar-brand"><img src="img/branco150.png" alt=""></a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -455,7 +455,7 @@ $u = new Usuario;
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
               <div class="widget">
-                <h3 class="footer-logo"><img src="img/testelogo2.png" alt=""></h3>
+                <h3 class="footer-logo"><img src="img/azul200.png" alt=""></h3>
                           
               </div>
             </div>
