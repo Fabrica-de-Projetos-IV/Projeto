@@ -26,7 +26,7 @@ $logado = $_SESSION['usuario'];
     <div class="info_box">
         <div class="info-title"><span>Algumas regras do formulário</span></div>
         <div class="info-list">
-            <div class="info">1. Você terá apenas<span> 15 segundos</span> para cada pergunta.</div>
+            <div class="info">1. Você terá apenas<span> 30 segundos</span> para cada pergunta.</div>
             <div class="info">2. Depois de selecionar sua resposta ela não pode ser desfeita.</div>
             <div class="info">3. Você não pode selecionar alguma opção depois que o tempo acabar.</div>
             <div class="info">4. Você não pode sair do teste enquanto estiver respondendo.</div>
@@ -42,7 +42,7 @@ $logado = $_SESSION['usuario'];
             <div class="title">TrilhaTech</div>
             <div class="timer">
                 <div class="time_left_txt">Tempo</div>
-                <div class="timer_sec">15</div>
+                <div class="timer_sec">30</div>
             </div>
             <div class="time_line"></div>
         </header>

@@ -97,7 +97,7 @@ $u = new Usuario;
                 <i class="lni-cog"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Formulário rapido</a></h3>
+                <h3><a href="#">Formulário rápido</a></h3>
                 <p class="p">Nosso site desponibilizará uma alta perfomance de usabilidade e rapidez para efetuar o formulário.  </p>
               </div>
             </div>
@@ -271,7 +271,7 @@ $u = new Usuario;
                   <h3><a >Lucas Vieira</a></h3>
                   <p>Desenvolvedor</p>
                 </div>
-                <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
+                <p>Sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
                   <li><a href="https://www.linkedin.com/in/luucas-vieira/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                   <li><a href="https://github.com/LucasVieira1"><i class="lni lni-github" aria-hidden="true"></i></a></li>
@@ -293,7 +293,7 @@ $u = new Usuario;
                   <h3><a >Samuel Santos</a></h3>
                   <p>Desenvolvedor</p>
                 </div>
-                <p>sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
+                <p>Sou o responsável pela programação, que é o processo de escrita e o desenvolvimento do projeto.</p>
                 <ul class="social-icons">
                   <li><a href="https://www.linkedin.com/in/samuel-santoss/"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                   <li><a href="https://github.com/Sam-Pina"><i class="lni lni-github" aria-hidden="true"></i></a></li>
@@ -301,11 +301,9 @@ $u = new Usuario;
                 </ul>
               </div>
             </div>
-
           </div>
-         
     </section>
-
+    <!-- feedback colegas -->
     <section id="testimonial" class="testimonial section-padding">
       <div class="container">
         <div class="row justify-content-center">
@@ -314,14 +312,14 @@ $u = new Usuario;
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/user.png" alt="">
+                    <img src="img/1.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a >Nome</a></h2>
-                    <h3><a >Profissão</a></h3>
+                    <h2><a >Pedro Boaretto</a></h2>
+                    <h3><a >Estudante</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Texto.</p>
+                    <p class="description">A Trilha Tech me impressionou no quesito organização e design, fazendo com que o site flua perfeitamente cumprindo seu propósito, definitivamente me ajudou muito.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
@@ -335,20 +333,21 @@ $u = new Usuario;
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/user.png" alt="">
+                    <img src="img/2.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a >Nome</a></h2>
-                    <h3><a >Profissão</a></h3>
+                    <h2><a >Rafaela Estefogo</a></h2>
+                    <h3><a >Assistente Admnistrativa</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Texto.</p>
+                    <p class="description">O site é intuitivo, as perguntas são objetivas e o resultado do teste bateu com o meu perfil profissional. 
+                      Achei uma ótima ferramenta pra quem está iniciando na carreira de tecnologia.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
-                      <span><i class="lni-star-half"></i></span>
+                      <span><i class="lni-star-filled"></i></span>
                     </div>
                   </div>
                 </div>
@@ -356,21 +355,20 @@ $u = new Usuario;
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/user.png" alt="">
+                    <img src="img/3.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a >Nome</a></h2>
-                    <h3><a >Profissão</a></h3>
+                    <h2><a >Gustavo Avila</a></h2>
+                    <h3><a >Dev Front-end</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">
-                    Texto.</p>
+                    <p class="description">Excelente website! Avaliação trouxe o resultado que eu esperava com um direcionando para estudo, se tivesse essa avaliação antes minha vida seria mais fácil no começo da carreira.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>    
                       <span><i class="lni-star-filled"></i></span>    
-                      <span><i class="lni-star-half"></i></span>
-                      <span><i class="lni-star-half"></i></span>
-                      <span><i class="lni-star-half"></i></span>
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>
                     </div>
                   </div>
                 </div>
@@ -381,7 +379,7 @@ $u = new Usuario;
                     <img src="img/user.png" alt="">
                   </div>
                   <div class="info">
-                    <h2><a >Nome</a></h2>
+                    <h2><a >João Murat</a></h2>
                     <h3><a >Profissão</a></h3>
                   </div>
                   <div class="content">
@@ -390,7 +388,72 @@ $u = new Usuario;
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>                      
+                      <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-half"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+               <!--  feedback RH -->
+               <div class="item">
+                <div class="testimonial-item">
+                  <div class="img-thumb">
+                    <img src="img/user.png" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a >nome</a></h2>
+                    <h3><a >Profissão</a></h3>
+                  </div>
+                  <div class="content">
+                    <p class="description">Texto.</p>
+                    <div class="star-icon mt-3">
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>                      
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-half"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="img-thumb">
+                    <img src="img/user.png" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a >nome</a></h2>
+                    <h3><a >Profissão</a></h3>
+                  </div>
+                  <div class="content">
+                    <p class="description">Texto.</p>
+                    <div class="star-icon mt-3">
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>                      
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-half"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="img-thumb">
+                    <img src="img/user.png" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a >nome</a></h2>
+                    <h3><a >Profissão</a></h3>
+                  </div>
+                  <div class="content">
+                    <p class="description">Texto.</p>
+                    <div class="star-icon mt-3">
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>
+                      <span><i class="lni-star-filled"></i></span>                      
+                      <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-half"></i></span>
                     </div>
                   </div>
@@ -421,7 +484,7 @@ $u = new Usuario;
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="email" placeholder="Email" id="email" class="form-control" name="email" required data-error="Por favor insira seu email">
+                      <input type="email" placeholder="E-mail" id="email" class="form-control" name="email" required data-error="Por favor insira seu email">
                       <div class="help-block with-errors"></div>
                     </div> 
                   </div>
@@ -462,34 +525,34 @@ $u = new Usuario;
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <h3 class="footer-titel">Áreas</h3>
               <ul class="footer-link">
-                <li><a href="#">Desenvolvimento</a></li>
-                <li><a href="#">Redes</a></li> 
-                <li><a href="#">Testes</a></li>
-                <li><a href="#">Gerenciamento de projetos</a></li>
-                <li><a href="#">Analista de dados</a></li>           
+                <li><a>Desenvolvimento</a></li>
+                <li><a>Redes</a></li> 
+                <li><a>Testes</a></li>
+                <li><a>Gerenciamento de projetos</a></li>
+                <li><a>Analista de dados</a></li>           
                      
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <h3 class="footer-titel">Recursos</h3>
               <ul class="footer-link">
-                <li><a href="#">Login e Cadastro</a></li>
-                <li><a href="#">Questionário</a></li>
-                <li><a href="#">Visualização dos resultados</a></li>
+                <li><a>Login e Cadastro</a></li>
+                <li><a>Questionário</a></li>
+                <li><a>Visualização dos resultados</a></li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <h3 class="footer-titel">Contato</h3>
               <ul class="address">
                 <li>
-                  <a href="#"><i class="lni-map-marker"></i>Sorocaba - SP</a>
+                  <a><i class="lni-map-marker"></i>Sorocaba - SP</a>
                    
                 </li>
                 <li>
-                  <a href="#"><i class="lni-phone-handset"></i> Tel: +55 123 123 123</a>
+                  <a><i class="lni-phone-handset"></i> Tel: +55 123 123 123</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-envelope"></i> E-mail: trilhatech@gmail.com</a>
+                  <a ><i class="lni-envelope"></i> E-mail: trilhatech@gmail.com</a>
                 </li>
               </ul>
             </div>

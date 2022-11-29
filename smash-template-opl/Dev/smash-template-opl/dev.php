@@ -68,7 +68,7 @@
                     <nav class="navbar navbar-expand-lg">
                        
                         <a class="navbar-brand" href="#">
-                            <img src="assets/images/logo.svg" alt="Logo">
+                            <img src="assets/images/testelogo2.png" alt="Logo">
                         </a>
                         
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
@@ -111,7 +111,7 @@
                             <div class="col-lg-6">
                                 <div class="slider-content">
                                     <h1 class="title">Agora vc é um Dev</h1>
-                                    <p class="text">Olá desenvolvedor, com base nos seus resultados vc chegou nessa trilha, Parábens.</p>
+                                    <p class="text">Olá desenvolvedor, com base nos seus resultados você chegou nessa trilha, Parábens.</p>
                                 </div>
                             </div>
                         </div> <!-- row -->
@@ -448,7 +448,7 @@
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-25">
                         <h3 class="title">Trilha de tutorias</h3>
-                        <p class="text">Aqui vc encontrará algumas maratonas que vão te ajudar com seu desenvolvimento!</p>
+                        <p class="text">Aqui você encontrará algumas maratonas que vão te ajudar com seu desenvolvimento!</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -469,7 +469,7 @@
                             </ul>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-one" href="https://www.youtube.com/watch?v=VKjFuX91G5Q&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW">COMEÇAR</a>
+                            <a class="main-btn rounded-one" href="https://www.youtube.com/watch?v=VKjFuX91G5Q&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW" target="_blank">COMEÇAR</a>
                         </div>    
                     </div> <!-- pricing style one -->
                 </div>
@@ -490,7 +490,7 @@
                             </ul>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-one" href="https://www.youtube.com/watch?v=LnORjqZUMIQ&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">COMEÇAR</a>
+                            <a class="main-btn rounded-one" href="https://www.youtube.com/watch?v=LnORjqZUMIQ&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r" target="_blank">COMEÇAR</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
@@ -511,7 +511,7 @@
                             </ul>
                         </div>
                         <div class="pricing-btn rounded-buttons text-center">
-                            <a class="main-btn rounded-one" href="https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR">COMEÇAR</a>
+                            <a class="main-btn rounded-one" href="https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR" target="_blank">COMEÇAR</a>
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
@@ -528,7 +528,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="assets/images/logo-2.svg" alt="Logo"></a>
+                        <a class="mt-30" href="index.html"><img src="assets/images/testelogo.png" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <div class="footer-support text-center">
                         <span class="mail">trilhatechbrasil@gmail.com</span>
