@@ -66,8 +66,8 @@ $logado = $_SESSION['usuario'];
         <div class="score_text">
         </div>
         <div class="buttons">
-            <button class="resultado quit" >Resultado</button>
             <button class="restart">Refazer</button>
+            <button class="resultado quit" >Resultado</button>
             <a href="formulario.php"><button class="quit">Sair</button></a>
         </div>
     </div>
