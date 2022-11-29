@@ -1,16 +1,16 @@
 let questions = [{
         numb: 1,
         question: "Eu gosto de trabalhar com:",
-        answer: "D - Resolução / solução de problemas",
+        answer: "D - Resolução/solução de problemas",
         answer1: "A - Internet/informação",
         answer2: "C - Liderança/organização",
-        answer3: "B - Segurança/analise",
+        answer3: "B - Segurança/análise",
         answer4: "E - Dados/gráficos",
         options: [
             "A - Internet/informação",
-            "B - Segurança/analise",
+            "B - Segurança/análise",
             "C - Liderança/organização",
-            "D - Resolução / solução de problemas",
+            "D - Resolução/solução de problemas",
             "E - Dados/gráficos"
         ]
     },

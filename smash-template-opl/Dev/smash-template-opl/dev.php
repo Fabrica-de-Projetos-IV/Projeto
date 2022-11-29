@@ -110,7 +110,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">Agora vc é um Dev</h1>
+                                    <h1 class="title">Agora você é um Dev</h1>
                                     <p class="text">Olá desenvolvedor, com base nos seus resultados você chegou nessa trilha, Parábens.</p>
                                 </div>
                             </div>

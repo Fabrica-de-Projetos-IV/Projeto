@@ -337,7 +337,7 @@ $u = new Usuario;
                   </div>
                   <div class="info">
                     <h2><a >Rafaela Estefogo</a></h2>
-                    <h3><a >Assistente Admnistrativa</a></h3>
+                    <h3><a >Assistente Administrativa</a></h3>
                   </div>
                   <div class="content">
                     <p class="description">O site é intuitivo, as perguntas são objetivas e o resultado do teste bateu com o meu perfil profissional. 
@@ -376,14 +376,14 @@ $u = new Usuario;
               <div class="item">
                 <div class="testimonial-item">
                   <div class="img-thumb">
-                    <img src="img/user.png" alt="">
+                    <img src="img/4.jpg" alt="">
                   </div>
                   <div class="info">
                     <h2><a >João Murat</a></h2>
-                    <h3><a >Profissão</a></h3>
+                    <h3><a >Analista de Suporte</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Texto.</p>
+                    <p class="description">Site muito bonito, mas o tempo para responder cada questão poderia ser um pouco maior, as perguntas são bem simples e o resultado combinou com meu perfil.</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>

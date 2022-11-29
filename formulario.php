@@ -33,8 +33,8 @@ $logado = $_SESSION['usuario'];
             <div class="info">5. Quando o tempo acabar a pergunta será desconsiderada.</div>
         </div>
         <div class="buttons">
-            <button class="quit">Sair</button>
-            <button class="restart">Continuar</button>
+            <button class="quit branco">Sair</button>
+            <button class="restart azul">Continuar</button>
         </div>
     </div>
     <div class="quiz_box">
@@ -66,9 +66,9 @@ $logado = $_SESSION['usuario'];
         <div class="score_text">
         </div>
         <div class="buttons">
-            <button class="restart">Refazer</button>
-            <button class="resultado quit" >Resultado</button>
-            <a href="formulario.php"><button class="quit">Sair</button></a>
+            <button class="restart branco">Refazer</button>
+            <button class="resultado quit azul" >Resultado</button>
+            <a href="formulario.php"><button class="quit branco">Sair</button></a>
         </div>
     </div>
     <script src="questions.js"></script>

@@ -373,26 +373,26 @@ footer button.show {
     transition: all 0.3s ease;
 }
 
-.buttons button.restart {
-    color: #fff;
-    background: #1E569A;
-    width: 130px;
-}
-
-.buttons button.restart:hover {
-    color: #1E569A;
-    background: #fff;
-}
-
-.buttons button.quit {
+.buttons button.branco {
     color: #1E569A;
     background: #fff;
     width: 130px;
 }
 
-.buttons button.quit:hover {
+.buttons button.branco:hover {
     color: #fff;
     background: #1E569A;
+}
+
+.buttons button.azul {
+    color: #fff;
+    background: #1E569A;
+    width: 130px;
+}
+
+.buttons button.azul:hover {
+    color: #1E569A;
+    background: #fff;
 }
 
 .btn-primary.a {
