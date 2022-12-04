@@ -31,7 +31,7 @@ Desenvolvimento, Redes, Gerenciamento, Testes e Analise de dados
 *  Bootstrap
 *  SQL
 
-## 📺 Vídeo do Projeto
+## 📺 Projeto
 * <a href="https://trilhatech1.000webhostapp.com/" title="Vídeo">WebSite</a>
 * <a href="https://www.youtube.com/watch?v=mjX6tkBLRvk" title="Vídeo">Vídeo</a>
 
