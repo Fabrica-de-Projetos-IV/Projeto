@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@media (max-width: 800px) {
+    form {
+        height: 450px 100% !important;
+    }
+    .info_box {
+        display: flex 100% !important;
+        flex-direction: column 100% !important;
+        width: 100% !important;
+    }
+    .quiz_box {
+        display: flex 100% !important;
+        flex-direction: column 100% !important;
+        width: 100% !important;
+    }
+    .result_box {
+        display: flex 100% !important;
+        flex-direction: column 100% !important;
+        width: 100% !important;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;

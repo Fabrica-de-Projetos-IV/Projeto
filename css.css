@@ -9,12 +9,7 @@ body {
     min-height: 100vh;
     background: #1E569A;
     transition: 0.5s;
-    overflow: hidden !important;
     /* transição das cores */
-}
-
-html {
-    overflow: hidden !important;
 }
 
 .teste {
